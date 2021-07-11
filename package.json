@@ -1,7 +1,7 @@
 {
     "name": "@mayank1513/auto-link",
     "description": "A thin wrapper to RouterLink component to automatically handle internal and external links.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "dist/AutoLink.umd.min.js",
     "browser": {
         "./sfc": "src/components/AutoLink.vue"
