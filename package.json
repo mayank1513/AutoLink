@@ -1,0 +1,68 @@
+{
+    "name": "@mayank1513/auto-link",
+    "description": "A thin wrapper to RouterLink component to automatically handle internal and external links.",
+    "version": "0.0.1",
+    "main": "dist/AutoLink.umd.min.js",
+    "browser": {
+        "./sfc": "src/components/AutoLink.vue"
+    },
+    "keywords": [
+        "javascript",
+        "vue",
+        "vuejs",
+        "vue 3",
+        "vue 3 composition api",
+        "tags",
+        "vue-tags-input",
+        "vue-component",
+        "autocomplete",
+        "draggable",
+        "no dependencies"
+    ],
+    "homepage": "https://mayank1513.github.io/AutoLink/",
+    "bugs": {
+        "url": "https://github.com/mayank1513/AutoLink/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mayank1513/AutoLink.git"
+    },
+    "license": "MIT",
+    "author": "Mayank Chaudhari <mayank.srmu@gmail.com>",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build --target lib --name AutoLink src/components/AutoLink.vue",
+        "build:web": "vue-cli-service build --target wc --inline-vue --name AutoLink src/components/AutoLink.vue",
+        "build:example": "vue-cli-service build",
+        "test:unit": "vue-cli-service test:unit",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^3.0.0",
+        "vue-router": "^4.0.10"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-unit-jest": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "@vue/test-utils": "^2.0.0-0",
+        "typescript": "~3.9.3",
+        "vue-jest": "^5.0.0-0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 5 versions",
+        "not dead"
+    ],
+    "jest": {
+        "preset": "@vue/cli-plugin-unit-jest",
+        "transform": {
+            "^.+\\.vue$": "vue-jest"
+        }
+    },
+    "files": [
+        "dist/*"
+    ]
+}
