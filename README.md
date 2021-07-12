@@ -7,7 +7,7 @@ To learn vue js please check out our courses [Vue.js Complete Course + Guide](ht
 
 Follow us on [FaceBook](https://www.facebook.com/Learn-Vue-Js-104953725168718/) to get the latest discount coupons and update to our articles and packages.
 
-> To keep it thin and performant we have chosen to provide only the minified version. Because, that's what you really need. In case you are looking for the full version build your own from this source code as per [Build](/#Build) section.
+> To keep it thin and performant we have chosen to provide only the minified version. Because, that's what you really need. In case you are looking for the full version build your own from this source code as per [Build](#Build) section.
 
 ## Install
 ```
@@ -20,7 +20,7 @@ Add dependency in package.json
     "@mayank1513/auto-link": "^0.0.3"
 ```
 ## Usage
-Use `AutoLink` in same way you would use `RouterLink`. You can provide some additional parameters as described in [Styling](/#Styling) and [Target](/#Target) section.
+Use `AutoLink` in same way you would use `RouterLink`. You can provide some additional parameters as described in [Styling](#Styling) and [Target](#Target) section.
 
 You do not need to handle internal and external links separately. You can just use AutoLink for all links. Just make sure you use https:// or http:// for external links.
 
