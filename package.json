@@ -1,7 +1,7 @@
 {
     "name": "@mayank1513/auto-link",
     "description": "A thin wrapper to RouterLink component to automatically handle internal and external links.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "dist/AutoLink.umd.min.js",
     "browser": {
         "./sfc": "src/components/AutoLink.vue"
@@ -11,13 +11,12 @@
         "vue",
         "vuejs",
         "vue 3",
-        "vue 3 composition api",
-        "tags",
-        "vue-tags-input",
+        "vue-router",
+        "auto-link",
         "vue-component",
-        "autocomplete",
-        "draggable",
-        "no dependencies"
+        "vue router link",
+        "no dependencies",
+        "minified"
     ],
     "homepage": "https://mayank1513.github.io/AutoLink/",
     "bugs": {
@@ -30,11 +29,10 @@
     "license": "MIT",
     "author": "Mayank Chaudhari <mayank.srmu@gmail.com>",
     "scripts": {
-        "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build --target lib --name AutoLink src/components/AutoLink.vue",
+        "serve": "vue-cli-service serve --open",
+        "build:lib": "vue-cli-service build --target lib --name AutoLink src/components/AutoLink.vue",
         "build:web": "vue-cli-service build --target wc --inline-vue --name AutoLink src/components/AutoLink.vue",
-        "build:example": "vue-cli-service build",
-        "test:unit": "vue-cli-service test:unit",
+        "build": "vue-cli-service build",
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
@@ -44,25 +42,16 @@
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "~4.5.0",
-        "@vue/cli-plugin-unit-jest": "~4.5.0",
         "@vue/cli-service": "~4.5.0",
         "@vue/compiler-sfc": "^3.0.0",
-        "@vue/test-utils": "^2.0.0-0",
-        "typescript": "~3.9.3",
-        "vue-jest": "^5.0.0-0"
+        "typescript": "~3.9.3"
     },
     "browserslist": [
         "> 1%",
         "last 5 versions",
         "not dead"
     ],
-    "jest": {
-        "preset": "@vue/cli-plugin-unit-jest",
-        "transform": {
-            "^.+\\.vue$": "vue-jest"
-        }
-    },
     "files": [
-        "dist/*"
+        "dist/AutoLink.umd.min.js"
     ]
 }

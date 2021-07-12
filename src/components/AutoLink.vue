@@ -7,7 +7,7 @@
 <script>
 import { RouterLink } from "vue-router";
 export default {
-  props: { ...RouterLink.props, externalLinkClass: String },
+  props: { ...RouterLink.props, externalLinkClass: {type: String, default: ''} },
   components: {
     RouterLink
   },

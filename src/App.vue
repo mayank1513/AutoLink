@@ -11,7 +11,7 @@
   <hr />
   <ul id="nav">
     <li v-for="(link, title) in links" :key="link">
-      <auto-link :to="link">{{ title }}</auto-link>
+      <auto-link :to="link" external-link-class="external-link">{{ title }}</auto-link>
     </li>
   </ul>
   <router-view />
@@ -71,5 +71,9 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.external-link {
+  color: blue !important;
 }
 </style>
