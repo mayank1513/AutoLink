@@ -44,7 +44,7 @@ export default {
       links: {
         Home: "/", // internal link
         About: "/about", // internal link
-        Blogs: "https://mayank-1513.medium.com", // external link
+        Blogs: "https://mayank1513.medium.com", // external link
         "Vue Crash Course + Guide":
           "https://www.udemy.com/course/vuejs-complete-course-plus-guide/?referralCode=93BDA4A1FE3F73C37CD2", // external link
         "Vue 3 Essentials":
