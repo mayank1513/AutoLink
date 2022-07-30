@@ -28,7 +28,7 @@ export default {
       links: {
         Home: "/",
         About: "/about",
-        Blogs: "https://mayank-1513.medium.com",
+        Blogs: "https://mayank1513.medium.com",
         "Vue Crash Course + Guide":
           "https://www.udemy.com/course/vuejs-complete-course-plus-guide/?referralCode=93BDA4A1FE3F73C37CD2",
         "Vue 3 Essentials":
